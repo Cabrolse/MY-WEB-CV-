@@ -1,0 +1,241 @@
+ /* elements */
+ body {
+     max-width: 940px;
+     margin-left: auto;
+     margin-right: auto;
+     overflow: scroll;
+     background-color: #ebeaea;
+ }
+
+ h1 {
+     font-family: "Archivo Black";
+     z-index: 1;
+     position: absolute;
+     padding-top: 20px;
+
+ }
+
+ h2 {
+     z-index: 1;
+     font-family: "work sans";
+ }
+
+ h3 {
+     font-family: "open sans";
+ }
+
+ p,
+ a {
+     font-family: "space mono";
+ }
+
+ .navsection {
+     padding-top: 32px;
+     max-width: 940px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ a {
+     background-color: #0000;
+     text-decoration: none;
+     color: black;
+
+ }
+
+ * {
+     box-sizing: border-box;
+
+ }
+
+ /* navbar */
+ .nameLogo {
+
+     float: left;
+     position: relative;
+     text-decoration: none;
+     width: 152px;
+     height: 24px;
+     padding-left: 10px;
+ }
+
+ .nav-p {
+     text-align: center;
+
+ }
+
+ .nav-link {
+     padding: 10px 15px;
+     text-decoration: none;
+     border-right: 2px solid #6e6e6e;
+     /* Vertical line */
+
+
+ }
+
+ .nav-link:last-child {
+     border-right: none;
+ }
+
+ .nav-link:hover {
+     color: rgb(63, 137, 142);
+     transition: transform 0.5s ea
+ }
+
+
+
+ .navigation {
+     float: right;
+     max-width: fit-content;
+ }
+
+
+
+ .mycontain {
+     padding-top: 128px;
+     padding-bottom: 96px;
+ }
+
+ /* hero of my main page! */
+ .hero-andre {
+     border-radius: 50%;
+ }
+
+ .hero-part1 {
+     display: flex;
+     text-align: right;
+     gap: 1rem;
+ }
+
+ .hero-h2 {
+     font-size: 50px;
+ }
+
+ .hero-h1 {
+     font-size: 90px;
+     font-weight: 800;
+     /* line-height: 108px; */
+ }
+
+ .hero-p {
+     font-size: 22px;
+ }
+
+ .hero-part2 {
+     display: flex;
+     align-items: center;
+     gap: 2rem;
+     /* flex-wrap: wrap; */
+ }
+
+ .hero-social img {
+     width: 45px;
+     border-radius: 50%;
+     transition: transform 0.5s ease;
+     position: relative;
+ }
+
+
+ .hero-social:hover {
+     transform: translateX(5px);
+ }
+
+ /* .hero-social::after {
+     content: attr(data-tooltip);
+     position: absolute;
+     bottom: 120%;
+     left: 50%;
+     transform: translateX(-50%);
+     background: #333;
+     color: white;
+     padding: 5px 10px;
+     border-radius: 4px;
+     opacity: 0;
+     transition: opacity 0.3s;
+     white-space: nowrap;
+     pointer-events: none;
+ }
+
+ .hero-social:hover::after {
+     opacity: 1;
+ } */
+
+ /* footer */
+ .ft-social {
+     width: 45px;
+     border-radius: 50%;
+     transition: transform 0.5s ease;
+ }
+
+ .ft-content {
+     display: flex;
+     align-items: center;
+     gap: 4rem;
+     padding: 15px;
+ }
+
+ .ftbox {
+     width: 245px;
+ }
+
+ .ft-social:hover {
+     transform: translateY(-5px);
+ }
+
+ .rights {
+     font-size: small;
+     font-weight: 100;
+ }
+
+ /* hero of my resume page! */
+ .hero-res {
+     align-items: center;
+     text-align: center;
+     padding: 110px 0;
+ }
+
+ .cv {
+     width: 200px;
+     border-radius: 10px;
+     border: 2px solid #ccc;
+     transition: box-shadow 0.3s ease, transform 0.5s ease;
+ }
+
+ .cv:hover {
+     box-shadow:
+         0 0 15px rgba(63, 137, 142, 0.6),
+         0 0 30px rgba(0, 255, 255, 0.4),
+         0 0 45px rgba(0, 255, 255, 0.2);
+     transform: translateY(-5px);
+ }
+
+ /* hero of my projects page! */
+
+ .constr-box {
+     margin: 0;
+     /* remove default margins */
+     height: 100vh;
+     /* full viewport height */
+     display: flex;
+     justify-content: center;
+     /* horizontal center */
+     align-items: center;
+     /* vertical center */
+ }
+
+
+ .h3-constr {
+     background-color: orange;
+     text-align: center;
+     padding: 4px 8px;
+     display: inline-block;
+     border-radius: 5px;
+     line-height: 1.2;
+
+ }
+
+ /* hero of my about me page */
+
+ .aboutmepic {
+     width: 40%;
+ }
